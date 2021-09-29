@@ -1,0 +1,21 @@
+{
+  "name": "node-lambda-project",
+  "version": "1.0.0",
+  "description": "Package.json file to store test dependencies",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Konecta",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}
